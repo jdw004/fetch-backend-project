@@ -26,8 +26,11 @@ Example Tests:
 # Add points
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "DANNON", "points": 300, "timestamp": "2022-10-31T10:00:00Z"}'
 
-# Spend points
+# Spend points (Test should not be possible)
 curl -X POST http://localhost:8000/spend -H "Content-Type: application/json" -d '{"points": 5000}'
+
+# Spend points 
+curl -X POST http://localhost:8000/spend -H "Content-Type: application/json" -d '{"points": 200}'
 
 # Get balance
 curl http://localhost:8000/balance
