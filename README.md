@@ -34,11 +34,8 @@ curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{
 
 curl -X POST http://localhost:8000/add -H "Content-Type: application/json" -d '{"payer": "DANNON", "points": 1000, "timestamp": "2022-11-02T14:00:00Z"}'
 
-# Spend points (Test should not be possible)
+# Spend points
 curl -X POST http://localhost:8000/spend -H "Content-Type: application/json" -d '{"points": 5000}'
-
-# Spend points 
-curl -X POST http://localhost:8000/spend -H "Content-Type: application/json" -d '{"points": 200}'
 
 # Get balance
 curl http://localhost:8000/balance
