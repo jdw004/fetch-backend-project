@@ -52,7 +52,7 @@ app.post('/add', (req, res) => {
         return;
     }
 
-    // Insert transaction in sorted order (binary search insertion)
+    // Insert transaction in sorted order (binary insertion)
     let low = 0, high = userTransactions.length - 1;
     while (low <= high) {
         const mid = Math.floor(low + (high - low) / 2);
