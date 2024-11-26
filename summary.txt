@@ -1,0 +1,30 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+    I chose Node.js with Express for several reasons.
+    JavaScript allows for easy JSON parsing, and is a high level language making it easily readable.
+    Node.js provides a lightweight solution and efficient runtime for building REST APIs.
+    Express.js provides a straightforward solution for routing and middleware.    
+
+2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+
+    Efficient time complexity through binary insertion (O(log n)) for adding transactions.
+    Constant-time balance lookups using a cache (O(1)) instead of recalculating balances each time.
+    The stack for transactions is memory-efficient.
+    The project has a scalable design that could easily accommodate multiple users in the future.
+    Contains thread-safe operations, ensuring the program is reliable when handling concurrent requests.
+
+Disadvantages:
+
+    In-memory storage means our data is lost when the server restarts.
+    The balance cache adds some memory, trading space for runtime.
+    Program is limited to a single-user scenario.
+    Lacks advanced error handling and input validation.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+    My favorite personal project so far would be a mars weather web application I built at a hackathon.
+    Being able to work on a team and learn more about React.js and webscraping was a blast.
+    The main challenge was finding a way for us to scrape information from NASA's mars website, in order to update our application with up-to-date info.
+    It taught me a lot about webscraping, as we had to learn about various scraping methods to find the one that worked best for our scenario. 
