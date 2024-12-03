@@ -1,4 +1,4 @@
-# Points Tracking API (Node.js and Express)
+# Points Tracking Rest API (Node.js and Express)
 
 ## Setup
 
