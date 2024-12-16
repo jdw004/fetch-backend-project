@@ -1,5 +1,5 @@
 # Points Tracking Rest API (Node.js and Express)
-This project is a simple Rest API to keep track of user balances and manage transactions. It features three API endpoints, ADD, SPEND, and BALANCE. 
+This project is a simple Rest API to keep track of user balances and manage transactions. It features three API endpoints: ADD, SPEND, and BALANCE. 
 
 ## Setup
 
